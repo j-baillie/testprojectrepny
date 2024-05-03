@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define t = Character('Turin', color="#E03B8B")
-define a = Character('Aerin', color="#013220")
+define Turin = Character('t', color="#E03B8B")
+define Aerin = Character('a', color="#013220")
 
 # The game starts here.
 
@@ -16,6 +16,7 @@ label start:
     "t" "But speak now, and do not deny me! Am I not Turin, Lord of Dor-Lomin? Shall I command you?"
     show turin at left
     show aerin at right
+    with fade
     "a" "Command me"
     "t" "Who plundered the house of Morwen?"
     "a" "Brodda"
