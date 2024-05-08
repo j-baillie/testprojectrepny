@@ -27,9 +27,16 @@ label start:
     a "But that has now ended..."
     a "She looked to find her son there awaiting her. But if you be he, then I fear that all has gone awry..."
 
-label nargothrond
-    scene nargothrond
-    with fade
+label scenetwo:
+    scene nargorthrond with fade
     show glaurung
+    g 'Hail, son of Hurin! Well met.'
+    show glaurung at left with move
+    show turin at right with move
+    narrator 'straightway, Turin fell under the dreadful spell of the dragon, and was as one turned to stone'
+    g 'Evil have been all your ways, son of Hurin!'
+    g 'Thankless fosterling, outlaw, slayer of your friend, thief of love, usurper of Nargothrond, captain foolhardy, and deserter of your kin!'
+    g 'As thralls your mother and your sister live in Dor-Lomin, in misery and want. You are arrayed as a prince, but they go in rags. For you, they yearn. But you care not for that!'
+
 
 return
