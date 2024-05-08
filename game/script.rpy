@@ -5,7 +5,7 @@
 
 define t = Character('Turin', color="#00008B")
 define a = Character('Aerin', color="#013220")
-
+define g = Character ('Glaurung', color="#89a572")
 # The game starts here.
 #start is p187 - p188 of my copy of the book
 label start:
@@ -26,5 +26,10 @@ label start:
     a "For the lands between were then free of evil for a while, because of the prowess of the Blacksword in the south country, it is said.."
     a "But that has now ended..."
     a "She looked to find her son there awaiting her. But if you be he, then I fear that all has gone awry..."
+
+label nargothrond
+    scene nargothrond
+    with fade
+    show glaurung
 
 return
