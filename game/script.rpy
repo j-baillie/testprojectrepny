@@ -27,6 +27,7 @@ define slow_dissolve = Dissolve(1.0)
 image turin stone = "turin_grey.png"
 
 # The game starts here.
+
 #start is p187 - p188 of my copy of the book
 label start:
     scene bg
@@ -47,6 +48,7 @@ label start:
     a "But that has now ended..."
     a "She looked to find her son there awaiting her. But if you be he, then I fear that all has gone awry..."
 
+
 label scenetwo:
     scene nargorthrond with fade
     show glaurung
@@ -63,15 +65,14 @@ label scenetwo:
     show turin with slow_dissolve
     narrator 'With a loud cry, Turin sprang towards the dragon, but stopping short.'
     show turin with move:
-        xalign 0.7
-        yalign 1
-    show turin at right with move
+        xalign 0.8
     g 'If you wish to be slain, I will slay you gladly! But small help will that be to Morwen and Nienor, no heed did you give to the cries of the elf woman!'
+    show turin at right with move
     g 'Will you deny also the bond of your blood?'
     show turin at attack_left with move
+    show turin at right with move
     narrator 'Turin jabbed at the great dragon\'s eye. At which point the wyrm reared up, towering above Turin.'
     show glaurung at rear_up with move
-    show turin at right with move
     g 'Nay, at least you are valiant, beyond all whom i have met. And they lie, who say that we of our part do not honour the valor of foes.'
     g 'See now! I offer you freedom! Go to your kin, if you can. Get you gone! And if elf or man be left to make tale of these days, then surely in scorn they will name you, if you spurn this gift!'
     narrator 'At this point, Turin turned and fled over the bridge'
