@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 30: expected ':' not found.
-    label nargothrond
-                     ^
+File "game/script.rpy", line 55: end of line expected.
+    hide glaurung show glaurung
+                  ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed May  8 23:34:49 2024
+Fri May 10 11:09:56 2024

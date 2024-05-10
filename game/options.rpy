@@ -29,7 +29,7 @@ define config.version = "0.1"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p(""" The greatest warriors among elves and men have perished, and all is in darkness and despair. But a deadly new leader rises, Túrin, son of Húrin, and with his grim band of outlaws begins to turn the tide in the war for Middle-earth -- awaiting the day he confronts his destiny and the deadly curse laid upon him.
 """)
 
 

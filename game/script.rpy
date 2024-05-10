@@ -52,6 +52,8 @@ label scenetwo:
     g 'See now! I offer you freedom! Go to your kin, if you can. Get you gone! And if elf or man be left to make tale of these days, then surely in scorn they will name you, if you spurn this gift!'
     narrator 'At this point, Turin turned and fled over the bridge'
     hide turin with fade
+    hide glaurung
+    show glaurung
     g 'Haste you now, son of Hurin to Dor-Lomin, or perhaps the orcs are come before you, once again.'
     g 'And if you tarry for Finduilas, then  never shall you see Morwen or Nienor again, and they will curse you!'
 
