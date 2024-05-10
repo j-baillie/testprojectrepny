@@ -12,6 +12,14 @@ transform rear_up:
     xalign 0.25
     yalign 0.25
 
+transform attack_left:
+    xalign 0.4
+    yalign 1.0
+
+transform attack_right:
+    xalign 0.6
+    yalign 1.0
+
 define slow_dissolve = Dissolve(1.0)
 
 
@@ -54,10 +62,16 @@ label scenetwo:
     narrator 'Glaurung withdrew his glance, and waited for Turin to wake from his stupor.'
     show turin with slow_dissolve
     narrator 'With a loud cry, Turin sprang towards the dragon, but stopping short.'
+    show turin with move:
+        xalign 0.7
+        yalign 1
+    show turin at right with move
     g 'If you wish to be slain, I will slay you gladly! But small help will that be to Morwen and Nienor, no heed did you give to the cries of the elf woman!'
     g 'Will you deny also the bond of your blood?'
+    show turin at attack_left with move
     narrator 'Turin jabbed at the great dragon\'s eye. At which point the wyrm reared up, towering above Turin.'
     show glaurung at rear_up with move
+    show turin at right with move
     g 'Nay, at least you are valiant, beyond all whom i have met. And they lie, who say that we of our part do not honour the valor of foes.'
     g 'See now! I offer you freedom! Go to your kin, if you can. Get you gone! And if elf or man be left to make tale of these days, then surely in scorn they will name you, if you spurn this gift!'
     narrator 'At this point, Turin turned and fled over the bridge'
