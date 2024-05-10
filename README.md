@@ -10,4 +10,4 @@
 
 ### Handy command for me 
 ##### git add * && git commit -m "COMMIT MESSAGE HERE" && git push
-###### I am not expecting nor wanting any monetary compensation. All assets used belong to their original creators
+###### I am not expecting nor wanting any monetary compensation. All assets and sources used belong to their original creators
