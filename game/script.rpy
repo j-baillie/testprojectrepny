@@ -7,10 +7,15 @@ define t = Character('Turin', color="#00008B")
 define a = Character('Aerin', color="#013220")
 define g = Character ('Glaurung', color="#89a572")
 
+# transformation declarations
 transform rear_up:
     xalign 0.25
     yalign 0.25
 
+define slow_dissolve = Dissolve(1.0)
+
+
+# image specific declarations
 image turin stone = "turin_grey.png"
 
 # The game starts here.
@@ -41,14 +46,14 @@ label scenetwo:
     show glaurung at left with move
     show turin at right with move
     narrator 'straightway, Turin fell under the dreadful spell of the dragon, and was as one turned to stone'
-    show turin stone with fade
+    show turin stone with slow_dissolve
     g 'Evil have been all your ways, son of Hurin!'
     g 'Thankless fosterling, outlaw, slayer of your friend, thief of love, usurper of Nargothrond, captain foolhardy, and deserter of your kin!'
     g 'As thralls your mother and your sister live in Dor-Lomin, in misery and want. You are arrayed as a prince, but they go in rags. For you, they yearn. But you care not for that!'
     g 'Glad may your father be to learn that he has such a son! As learn he shall...'
     narrator 'Glaurung withdrew his glance, and waited for Turin to wake from his stupor.'
-    show turin with fade
-    narrator 'With a loud cry, Turin sprang upon the dragon'
+    show turin with slow_dissolve
+    narrator 'With a loud cry, Turin sprang towards the dragon, but stopping short.'
     g 'If you wish to be slain, I will slay you gladly! But small help will that be to Morwen and Nienor, no heed did you give to the cries of the elf woman!'
     g 'Will you deny also the bond of your blood?'
     narrator 'Turin jabbed at the great dragon\'s eye. At which point the wyrm reared up, towering above Turin.'
