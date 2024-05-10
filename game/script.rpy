@@ -7,6 +7,10 @@ define t = Character('Turin', color="#00008B")
 define a = Character('Aerin', color="#013220")
 define g = Character ('Glaurung', color="#89a572")
 
+transform rear_up:
+    xalign 0.25
+    yalign 0.25
+
 image turin stone = "turin_grey.png"
 
 # The game starts here.
@@ -48,12 +52,13 @@ label scenetwo:
     g 'If you wish to be slain, I will slay you gladly! But small help will that be to Morwen and Nienor, no heed did you give to the cries of the elf woman!'
     g 'Will you deny also the bond of your blood?'
     narrator 'Turin jabbed at the great dragon\'s eye. At which point the wyrm reared up, towering above Turin.'
+    show glaurung at rear_up with move
     g 'Nay, at least you are valiant, beyond all whom i have met. And they lie, who say that we of our part do not honour the valor of foes.'
     g 'See now! I offer you freedom! Go to your kin, if you can. Get you gone! And if elf or man be left to make tale of these days, then surely in scorn they will name you, if you spurn this gift!'
     narrator 'At this point, Turin turned and fled over the bridge'
-    hide turin with fade
-    hide glaurung
-    show glaurung
+    show turin at offscreenright with move
+    hide turin
+    show glaurung at center with move
     g 'Haste you now, son of Hurin to Dor-Lomin, or perhaps the orcs are come before you, once again.'
     g 'And if you tarry for Finduilas, then  never shall you see Morwen or Nienor again, and they will curse you!'
 

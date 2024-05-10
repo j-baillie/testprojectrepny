@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 55: end of line expected.
-    hide glaurung show glaurung
-                  ^
+File "game/script.rpy", line 59: show statement expects a non-empty block.
+    show turin offscreenright with move:
+                                        ^
+
+File "game/script.rpy", line 60: show statement expects a non-empty block.
+    show glaurung center with move:
+                                   ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri May 10 11:09:56 2024
+Fri May 10 11:37:04 2024
